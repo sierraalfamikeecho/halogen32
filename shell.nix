@@ -1,10 +1,9 @@
-{pkgs ? import <nixpkgs> {} }:
-
+{pkgs ? import <nixpkgs> {}}:
 pkgs.mkShell {
-  packages = [
-    (pkgs.python313.withPackages (pypkgs: with pypkgs; [
-      west
-      pyspice
-    ]))
+  packages = with pkgs; [
+    gcc-arm-embedded
+    gnumake
+    rustc
+    cargo-embassy
   ];
 }
