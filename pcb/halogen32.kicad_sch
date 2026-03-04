@@ -9991,6 +9991,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_ARM_JTAG_SWD_10")
+		(at 187.96 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "108c278f-1629-4609-a33c-f3330bd21a74")
+		(property "Reference" "J1"
+			(at 176.53 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_ARM_JTAG_SWD_10"
+			(at 176.53 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical"
+			(at 187.96 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf"
+			(at 179.07 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface"
+			(at 187.96 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f1179d07-f498-4d8a-8f69-81e500cf980c")
+		)
+		(pin "5"
+			(uuid "77308a82-12ac-4583-8f9e-6f31b30e6735")
+		)
+		(pin "2"
+			(uuid "2da00870-8e81-4f41-a764-7c21542cba89")
+		)
+		(pin "1"
+			(uuid "8f393108-0255-4bde-87c0-e3901f564dc0")
+		)
+		(pin "9"
+			(uuid "c0d7d328-d3c8-4c69-9b10-b2f60eabddeb")
+		)
+		(pin "6"
+			(uuid "b1c9ad25-6c98-4e39-9a99-737ad10499a3")
+		)
+		(pin "4"
+			(uuid "c7d80c9b-78cc-47ee-adde-df41e9a56f6b")
+		)
+		(pin "10"
+			(uuid "e31adc4e-fb89-48a1-b2ac-700fa1049bc9")
+		)
+		(pin "7"
+			(uuid "4926ea6e-2a55-4fa3-a971-29611f4aa7ba")
+		)
+		(pin "8"
+			(uuid "0007ad0d-2253-4289-a3f7-1ea0df005bf9")
+		)
+		(instances
+			(project ""
+				(path "/0dddf3a6-05c9-4d23-8b33-d0c9438795f8"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 267.97 73.66 0)
 		(unit 1)
@@ -10225,7 +10319,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
 			(at 76.2 161.29 0)
 			(effects
 				(font
@@ -10374,7 +10468,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
 			(at 76.2 181.61 0)
 			(effects
 				(font
@@ -12212,7 +12306,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_0603-2Pin_6.0x3.5mm"
 			(at 125.73 24.13 0)
 			(effects
 				(font
@@ -14399,7 +14493,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Ferrite_THT:LairdTech_28C0236-0JW-10"
 			(at 97.79 28.448 90)
 			(effects
 				(font
@@ -14638,100 +14732,6 @@
 			(project ""
 				(path "/0dddf3a6-05c9-4d23-8b33-d0c9438795f8"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_ARM_JTAG_SWD_10")
-		(at 187.96 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e2c25878-71da-41d3-b16c-c9ac4e36b9b3")
-		(property "Reference" "J1"
-			(at 176.53 111.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_ARM_JTAG_SWD_10"
-			(at 176.53 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf"
-			(at 179.07 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface"
-			(at 187.96 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "b268f039-31bc-47ff-bec6-17982db6732b")
-		)
-		(pin "10"
-			(uuid "17446be9-4ff0-4bf1-bfda-b876227f0db3")
-		)
-		(pin "5"
-			(uuid "05d9f712-8080-498b-9944-e6eaf6b8770c")
-		)
-		(pin "3"
-			(uuid "b4f84489-0214-4e53-8b94-1640307e2da2")
-		)
-		(pin "1"
-			(uuid "aa6ac60a-964f-4643-b77b-049422ef4e6c")
-		)
-		(pin "7"
-			(uuid "5358d4dc-a967-45aa-9f4c-62cc30a6c448")
-		)
-		(pin "4"
-			(uuid "0d82ed4e-81b7-474b-8bf4-0c19374907c1")
-		)
-		(pin "8"
-			(uuid "e439a11e-cdc8-46fa-a7e8-cc44ac063bb4")
-		)
-		(pin "2"
-			(uuid "50d25bb2-0d53-4e0c-b84f-978fa044ad99")
-		)
-		(pin "9"
-			(uuid "15f19ca6-ee1e-4709-9385-081f1b088144")
-		)
-		(instances
-			(project ""
-				(path "/0dddf3a6-05c9-4d23-8b33-d0c9438795f8"
-					(reference "J1")
 					(unit 1)
 				)
 			)
